@@ -1,3 +1,9 @@
 require 'mail'
 
-gem 'rack', git: 'https://github.com/rack/rack'
+source "https://rubygems.org"
+gem "rspec"
+gem "sinatra"
+
+group :development do
+gem "pry"
+end
