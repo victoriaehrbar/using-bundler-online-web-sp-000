@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 gem "rspec"
 gem "sinatra"
-gem "hashie"
+# gem "hashie"
 require 'mail'
 
 group :development do
